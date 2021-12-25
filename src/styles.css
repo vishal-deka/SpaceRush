@@ -1,0 +1,13 @@
+body {
+  width: 90vw;
+  height: 90vh;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#canvas1 {
+  width: 800px;
+  height: 600px;
+  border: 4px solid;
+}
