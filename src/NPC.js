@@ -6,6 +6,7 @@ export default class NPC {
     this.speed = 20;
     this.image = new Image();
     this.image.src = "../assets/images/Ship1.png";
+    this.interval = 200;
   }
 
   //maintain an array such that the draw func
@@ -13,9 +14,9 @@ export default class NPC {
 
   update(frames) {
     //randomly add a new background object
-    if (frames % 200 === 0) {
+    if (frames % this.interval === 0) {
       let y = Math.floor(
-        Math.random() * (this.screenheight - 60 - 30 + 1) + 60
+        Math.random() * (this.screenheight - 60 - 50 + 1) + 60
       );
       //console.log(y );
 

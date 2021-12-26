@@ -15,6 +15,7 @@ export default class Player {
     this.xspeed = 0;
     this.yspeed = 0;
     this.MaxSpeed = 20;
+    this.score = 0;
 
     this.bullets = new Array();
     this.bulletheight = 5;
