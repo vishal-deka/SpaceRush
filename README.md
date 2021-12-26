@@ -4,3 +4,6 @@ No frameworks have been used apart from Canvas
 
 NOTE: This is not a tile based game. The movements are continous.
 Game physics for bullet collsion have been used accordingly.
+
+![alt text](Startup page.png "Start up page")
+![alt text](Main game.png "Game page")
